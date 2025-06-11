@@ -1,0 +1,137 @@
+type: collection.insomnia.rest/5.0
+name: feign-products-api
+meta:
+  id: wrk_ea6b2293bb804ec8b8a26d1ecf11e6a8
+  created: 1749645547911
+  modified: 1749645547911
+  description: ""
+collection:
+  - url: http://localhost:8080/ping
+    name: Ping
+    meta:
+      id: req_755e19971bd9472ea15bf4c6bef5d6fa
+      created: 1749645555471
+      modified: 1749661482349
+      isPrivate: false
+      description: ""
+      sortKey: -1749645555471
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/products
+    name: Testar o endpoint principal
+    meta:
+      id: req_81b4d65cb09b4dc79de7d44a813c6ae0
+      created: 1749647963317
+      modified: 1749661476105
+      isPrivate: false
+      description: ""
+      sortKey: -1749571214534.5
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "category": "smartphones",
+          "stock": 10,
+          "price": 1000
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/products
+    name: Testar erros de validação (400 Bad Request)
+    meta:
+      id: req_66e547dd749d482684d9026ae050de1f
+      created: 1749648665242
+      modified: 1749661473124
+      isPrivate: false
+      description: ""
+      sortKey: -1749534044066.25
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "category": "smartphones",
+          "stock": 0,
+          "price": 1000
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/products
+    name: Testar erro de lógica (404 Not Found)
+    meta:
+      id: req_a3b53a72fe8e499b9a8194e7ddf1ee93
+      created: 1749648834596
+      modified: 1749661470550
+      isPrivate: false
+      description: ""
+      sortKey: -1749515458832.125
+    method: POST
+    body:
+      mimeType: application/json
+      text: |
+        {
+          "category": "smartphones",
+          "stock": 1,
+          "price": 1
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_4816d620f248b7a456c8fd4440abb060c5b0de86
+    created: 1749645547933
+    modified: 1749645547933
+environments:
+  name: Base Environment
+  meta:
+    id: env_4816d620f248b7a456c8fd4440abb060c5b0de86
+    created: 1749645547931
+    modified: 1749661368405
+    isPrivate: false
+  data:
+    url: http://localhost:8080
