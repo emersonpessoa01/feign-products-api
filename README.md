@@ -27,9 +27,15 @@ Este projeto é uma aplicação REST desenvolvida com **Spring Boot** que consom
 
 Esta API pode ser testada diretamente com o Insomnia. Importando a collection, você terá os endpoints `/ping` e `/products` já configurados com exemplos válidos e inválidos.
 
-[⬇️ Clique aqui para baixar o arquivo insomnia-collection.json](insomnia/insomnia-collection.json)
+[//]: # ([⬇️ Clique aqui para baixar o arquivo insomnia-collection.json]&#40;insomnia/insomnia-collection.json&#41;)
+
+<a href="insomnia/insomnia-collection.json" download>
+<img src="https://img.shields.io/badge/Baixar%20Insomnia%20JSON-Download-blue?style=for-the-badge&logo=insomnia" alt="Download Insomnia JSON">
+</a>
 
 [🔝 Voltar ao topo](#topo)
+
+
 
 
 ---
