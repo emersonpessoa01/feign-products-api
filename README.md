@@ -86,6 +86,7 @@ Criar uma aplicação Java utilizando Spring Boot com os seguintes requisitos:
 | `ProductClient.java`             | FeignClient para `dummyjson.com`               |
 | `ProductService.java`            | Camada de serviço com filtragem de produtos    |
 | `ProductController.java`         | Endpoint POST com `@Valid`                     |
+
 [🔝 Voltar ao topo](#topo)
 
 ---
