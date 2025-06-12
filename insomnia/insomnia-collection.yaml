@@ -6,7 +6,7 @@ meta:
   modified: 1749645547911
   description: ""
 collection:
-  - url: http://localhost:8080/ping
+  - url: http://localhost:8081/ping
     name: Ping
     meta:
       id: req_755e19971bd9472ea15bf4c6bef5d6fa
@@ -27,7 +27,7 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://localhost:8080/products
+  - url: http://localhost:8081/products
     name: Testar o endpoint principal
     meta:
       id: req_81b4d65cb09b4dc79de7d44a813c6ae0
@@ -58,7 +58,7 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://localhost:8080/products
+  - url: http://localhost:8081/products
     name: Testar erros de validação (400 Bad Request)
     meta:
       id: req_66e547dd749d482684d9026ae050de1f
@@ -89,7 +89,7 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://localhost:8080/products
+  - url: http://localhost:8081/products
     name: Testar erro de lógica (404 Not Found)
     meta:
       id: req_a3b53a72fe8e499b9a8194e7ddf1ee93
@@ -134,4 +134,4 @@ environments:
     modified: 1749661368405
     isPrivate: false
   data:
-    url: http://localhost:8080
+    url: http://localhost:8081
