@@ -29,9 +29,15 @@ Esta API pode ser testada diretamente com o Insomnia. Importando a collection, v
 
 [//]: # ([⬇️ Clique aqui para baixar o arquivo insomnia-collection.json]&#40;insomnia/insomnia-collection.json&#41;)
 
-<a href="insomnia/insomnia-collection.json" download>
-<img src="https://img.shields.io/badge/Baixar%20Insomnia%20JSON-Download-blue?style=for-the-badge&logo=insomnia" alt="Download Insomnia JSON">
-</a>
+[//]: # (<a href="insomnia/insomnia-collection.json" download>)
+
+[//]: # (<img src="https://img.shields.io/badge/Baixar%20Insomnia%20JSON-Download-blue?style=for-the-badge&logo=insomnia" alt="Download Insomnia JSON">)
+
+[//]: # (</a>)
+
+[![Baixar JSON do Insomnia](https://img.shields.io/badge/Baixar%20Insomnia%20JSON-Download-blue?style=for-the-badge&logo=insomnia)](https://github.com/emersonpessoa01/feign-products-api/blob/master/insomnia/insomnia-collection.yaml)
+
+
 
 [🔝 Voltar ao topo](#topo)
 
